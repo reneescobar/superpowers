@@ -12,11 +12,11 @@ Dispatch a code reviewer subagent to catch issues before they cascade. The revie
 ## When to Request Review
 
 **Mandatory:**
-- After each task in subagent-driven development
-- After completing major feature
+- After completing a major feature or complex multi-task unit
 - Before merge to main
 
 **Optional but valuable:**
+- After each task in subagent-driven development (catches issues earlier)
 - When stuck (fresh perspective)
 - Before refactoring (baseline check)
 - After fixing complex bug

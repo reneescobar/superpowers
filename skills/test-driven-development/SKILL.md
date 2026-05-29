@@ -21,10 +21,10 @@ Write the test first. Watch it fail. Write minimal code to pass.
 - Refactoring
 - Behavior changes
 
-**Exceptions (ask your human partner):**
-- Throwaway prototypes
-- Generated code
-- Configuration files
+**Exceptions (deliberate, not rationalizations):**
+- Throwaway spikes — exploratory code written to learn, not to keep. Must be deleted before writing production code; never "adapted" into the codebase.
+- Generated code (scaffolding, migrations, codegen output)
+- Configuration files with no logic
 
 Thinking "skip TDD just this once"? Stop. That's rationalization.
 
@@ -368,4 +368,4 @@ Production code → test exists and failed first
 Otherwise → not TDD
 ```
 
-No exceptions without your human partner's permission.
+No exceptions.
